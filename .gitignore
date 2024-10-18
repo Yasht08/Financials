@@ -1,17 +1,17 @@
-# Node modules
-node_modules/
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
 
-# Build output
-build/
-
-# Local environment files
+# Environment variable files
 .env
 
-# Temporary files
-*.log
+# Ignore build directories
+build/
 
-# Ignore macOS Finder files
+# macOS Finder files
 .DS_Store
 
-# Ignore cache files
-.cache/
+# Ignore virtual environment
+venv/
+/node_modules
